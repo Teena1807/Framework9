@@ -81,4 +81,64 @@ public class GenericMethods {
 	public boolean checkSingleEntry(String locator, String type){
 		return getElementsAsList(locator, type).size() ==1;
 	}
+	
+	//Assert TextBox Value exists
+	public boolean  validateTextBox(WebDriver driver,String type,String value,String ExpText)
+	{
+		boolean result= false;
+		String actValue="";
+		try
+		{
+			
+			if(type.equalsIgnoreCase("id")){
+				actValue= driver.findElement(By.id(value)).getAttribute("value");
+			}else if(type.equalsIgnoreCase("name")){
+				actValue= driver.findElement(By.id(value)).getAttribute("value");
+			}else if(type.equalsIgnoreCase("xpath")){
+				actValue= driver.findElement(By.id(value)).getAttribute("value");
+			}else if(type.equalsIgnoreCase("class")){
+				actValue= driver.findElement(By.id(value)).getAttribute("value");
+			}// other TODO 
+		
+			if (actValue.equals(ExpText))
+			{
+				result=true;
+			}
+		}	
+		catch (Exception e)
+		{
+			
+		}
+		return result;
+					
+	}	
+	
+	//Assert RadioButton is selected 
+	
+	public static boolean elementSelected(WebDriver driver,String xpath)
+	{
+		boolean result= false;
+		try {
+		 driver.findElement(By.xpath(xpath));
+		 
+		 result= true;
+		}
+		catch(Exception e)
+		{
+			System.out.println("element not found");
+		}
+		return result;
+		
+	}
+	public static boolean getUrl(WebDriver driver,String ExpectedUrl)
+	{
+		boolean result= false;
+	 if(driver.getTitle().equalsIgnoreCase(ExpectedUrl))
+	 {
+		result=true; 
+	 }
+		return result; 
+	}
+	 	
+	
 }
