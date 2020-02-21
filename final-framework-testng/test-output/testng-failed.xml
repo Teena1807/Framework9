@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.Fogotpassowrd">
+      <class name="com.training.sanity.tests.RateAssignments">
         <methods>
-          <include name="setUpBeforeClass"/>
-          <include name="forgotPwdTest"/>
-          <include name="tearDown"/>
+          <include name="validRateAssignment"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.Fogotpassowrd -->
+      </class> <!-- com.training.sanity.tests.RateAssignments -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

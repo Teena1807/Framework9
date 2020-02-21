@@ -1,83 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="158496" started-at="2020-02-17T09:56:46 IST" finished-at="2020-02-17T09:59:25 IST">
+  <suite name="Default suite" duration-ms="49147" started-at="2020-02-21T15:51:40 IST" finished-at="2020-02-21T15:52:29 IST">
     <groups>
     </groups>
-    <test name="Sample test" duration-ms="158496" started-at="2020-02-17T09:56:46 IST" finished-at="2020-02-17T09:59:25 IST">
-      <class name="com.training.sanity.tests.Fogotpassowrd">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Fogotpassowrd@1c3a4799]" name="setUpBeforeClass" is-config="true" duration-ms="8" started-at="2020-02-17T09:58:08 IST" finished-at="2020-02-17T09:58:08 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Fogotpassowrd@1c3a4799]" name="setUp" is-config="true" duration-ms="13313" started-at="2020-02-17T09:58:08 IST" finished-at="2020-02-17T09:58:21 IST">
+    <test name="Default test" duration-ms="49147" started-at="2020-02-21T15:51:40 IST" finished-at="2020-02-21T15:52:29 IST">
+      <class name="com.training.sanity.tests.RateAssignments">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RateAssignments@5d76b067]" name="setUp" is-config="true" duration-ms="14604" started-at="2020-02-21T15:51:40 IST" finished-at="2020-02-21T15:51:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="forgotPwdTest()[pri:0, instance:com.training.sanity.tests.Fogotpassowrd@1c3a4799]" name="forgotPwdTest" duration-ms="4454" started-at="2020-02-17T09:58:21 IST" finished-at="2020-02-17T09:58:26 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgotPwdTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Fogotpassowrd@1c3a4799]" name="tearDown" is-config="true" duration-ms="1834" started-at="2020-02-17T09:58:26 IST" finished-at="2020-02-17T09:58:27 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.Fogotpassowrd -->
-      <class name="com.training.sanity.tests.LoginTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.LoginTests@1f554b06]" name="setUp" is-config="true" duration-ms="14525" started-at="2020-02-17T09:56:46 IST" finished-at="2020-02-17T09:57:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:1, instance:com.training.sanity.tests.LoginTests@1f554b06]" name="validLoginTest" duration-ms="5652" started-at="2020-02-17T09:57:57 IST" finished-at="2020-02-17T09:58:02 IST">
+        <test-method status="PASS" signature="validLoginTest()[pri:1, instance:com.training.sanity.tests.RateAssignments@5d76b067]" name="validLoginTest" duration-ms="5102" started-at="2020-02-21T15:51:54 IST" finished-at="2020-02-21T15:51:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="editProfileTest()[pri:2, instance:com.training.sanity.tests.LoginTests@1f554b06]" name="editProfileTest" duration-ms="5395" started-at="2020-02-17T09:58:02 IST" finished-at="2020-02-17T09:58:08 IST">
+        <test-method status="PASS" signature="validRateAssignment()[pri:2, instance:com.training.sanity.tests.RateAssignments@5d76b067]" name="validRateAssignment" duration-ms="28086" started-at="2020-02-21T15:51:59 IST" finished-at="2020-02-21T15:52:28 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- editProfileTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.LoginTests@1f554b06]" name="tearDown" is-config="true" duration-ms="1711" started-at="2020-02-17T09:59:23 IST" finished-at="2020-02-17T09:59:25 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.LoginTests -->
-      <class name="com.training.sanity.tests.SignUpTeacher">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.SignUpTeacher@131276c2]" name="setUpBeforeClass" is-config="true" duration-ms="9" started-at="2020-02-17T09:58:27 IST" finished-at="2020-02-17T09:58:27 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.SignUpTeacher@131276c2]" name="setUp" is-config="true" duration-ms="12984" started-at="2020-02-17T09:58:27 IST" finished-at="2020-02-17T09:58:40 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validSignUpTest()[pri:0, instance:com.training.sanity.tests.SignUpTeacher@131276c2]" name="validSignUpTest" duration-ms="40535" started-at="2020-02-17T09:58:40 IST" finished-at="2020-02-17T09:59:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validSignUpTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.SignUpTeacher@131276c2]" name="tearDown" is-config="true" duration-ms="1889" started-at="2020-02-17T09:59:21 IST" finished-at="2020-02-17T09:59:23 IST">
+        </test-method> <!-- validRateAssignment -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RateAssignments@5d76b067]" name="tearDown" is-config="true" duration-ms="1308" started-at="2020-02-21T15:52:28 IST" finished-at="2020-02-21T15:52:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.SignUpTeacher -->
-      <class name="com.training.sanity.tests.SignUp">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.SignUp@694e1548]" name="setUpBeforeClass" is-config="true" duration-ms="5" started-at="2020-02-17T09:57:01 IST" finished-at="2020-02-17T09:57:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.SignUp@694e1548]" name="setUp" is-config="true" duration-ms="13269" started-at="2020-02-17T09:57:01 IST" finished-at="2020-02-17T09:57:14 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validSignUpTest()[pri:0, instance:com.training.sanity.tests.SignUp@694e1548]" name="validSignUpTest" duration-ms="40431" started-at="2020-02-17T09:57:14 IST" finished-at="2020-02-17T09:57:54 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validSignUpTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.SignUp@694e1548]" name="tearDown" is-config="true" duration-ms="2407" started-at="2020-02-17T09:57:54 IST" finished-at="2020-02-17T09:57:57 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.SignUp -->
-    </test> <!-- Sample test -->
-  </suite> <!-- Sample test Suite -->
+      </class> <!-- com.training.sanity.tests.RateAssignments -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

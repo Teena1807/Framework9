@@ -103,8 +103,8 @@ public class SignUpTeacher {
     	screenShot.captureScreenShot("FOurth");
     	//System.out.println("Email exists");
     	
-		signupPOM.sendUserName("manzoor1113");
-		Boolean Result4=gmethod.validateTextBox(driver,"id","username","manzoor1113");
+		signupPOM.sendUserName("manzoor1118");
+		Boolean Result4=gmethod.validateTextBox(driver,"id","username","manzoor1118");
     	Assert.assertTrue(Result4);
     	test.log(LogStatus.PASS, "Username Entered");
     	screenShot.captureScreenShot("Fifth");
